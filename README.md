@@ -1,2 +1,2 @@
 # FreestyleEnt
-Site da Freestyle Entertainment feito inicialmente em HTML, CSS e JavaScript.
+Site da Freestyle Entertainment inicialmente desenvolvido utilizando HTML, CSS e JavaScript.
