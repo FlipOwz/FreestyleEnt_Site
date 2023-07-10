@@ -26,7 +26,9 @@ body {
     height: 100vh;
 }
 
-main {
+/* HOME */
+
+.banner {
     background: url("../img/fundo-banner.png") no-repeat center center;
     background-size: cover;
     height: 80vh;
@@ -45,4 +47,61 @@ main {
 .banner__descricoes h2 {
     font-family: var(--fonte-primaria);
     font-size: 2rem;
+}
+
+@media (max-width: 1180px) {
+    .banner {
+        row-gap: 1rem;
+    }
+
+    .banner__descricoes {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .banner {
+        row-gap: 3rem;
+    }
+
+    .banner__descricoes h2 {
+        font-size: 1rem;
+    }
+
+    .banner__img {
+        width: 80vw;
+    }
+}
+
+/* CALENDÁRIO */
+
+.banner__calendario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.banner__calendario-breve {
+    /* background-color: #CF1515; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.banner__calendario-breve h1 {
+    font-family: var(--fonte-primaria);
+    font-size: 2rem;
+}
+
+.felix__img {
+    width: 250px;
+    border-radius: 3rem;
+}
+
+.gif {
+    width: 100px;
 }
