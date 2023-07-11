@@ -64,18 +64,16 @@ nav {
       right: 0;
       width: 100vw;
       height: 80vh;
-      /* row-gap: 0; */
       background-color: rgba(232, 156, 156, 0.2);
       backdrop-filter: blur(8px);
-      transition: all 0.5s ease;
-      /* background: #23232e; */
+      transition: all 0.3s ease;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       row-gap: 3rem;
-      transform: translateX(100%);
+      transform: translateY(-300%);
       transition: transform 0.3s ease-in;
-      border-radius:  0 0 3rem 3rem;
+      /* border-radius:  0 0 3rem 3rem; */
     }
 
     .nav-list li:nth-child(1) {
@@ -99,7 +97,8 @@ nav {
     transform: translateX(0);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 420px) {
+
     .nav-list {
         height: 75vh;
         justify-content: center;

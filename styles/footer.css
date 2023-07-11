@@ -14,7 +14,7 @@
 
 .rodape__links {
     display: flex;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--fonte-primaria);
     column-gap: 4rem;
 }
@@ -25,7 +25,18 @@
     row-gap: 1rem;
     align-items: center;
     font-family: var(--fonte-primaria);
-    font-size: 16px;
+    font-size: 1.5remn;
+}
+
+@media (max-width: 420px) {
+    .rodape {
+        height: 50vh;
+    }
+
+    .rodape__links, 
+    .rodape__aviso {
+        font-size: 0.7rem;
+    }
 }
 
 @media (max-width: 950px) {
@@ -41,8 +52,3 @@
 
 }
 
-@media (max-width: 400px) {
-    .rodape {
-        height: 50vh;
-    }
-}
