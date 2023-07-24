@@ -3,50 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <title>Produtos</title>
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/styles.css">    
 </head>
 <body>
-    <header>
-        <nav>
-            <!-- logo da freestyle -->
-            <a href="../index.html"><img class="logo" src="../img/logo.svg" alt="logo freestyle"></a>
+    <header id="header">
+        <a href="../index.html" class="logo"><img src="../img/logo.svg" alt="logo da freestyle"></a>
+            <nav>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="lista">
+                    <li><img src="../img/estrela.svg" alt="icon de estrela menu" class="lista-img"></li>
+                    <li class="lista-items"><a href="../pages/calendario.html">CALENDÁRIO</a></li>
+                    <li><img src="../img/estrela.svg" alt="icon de estrela menu" class="lista-img"></li>
+                    <li class="lista-items"><a href="../pages/avisos.html">AVISOS</a></li>
+                    <li><img src="../img/estrela.svg" alt="icon de estrela menu" class="lista-img"></li>
+                    <li class="lista-items"><a href="../pages/awards.html">AWARDS</a></li>
+                    <li><img src="../img/estrela.svg" alt="icon de estrela menu" class="lista-img"></li>
+                    <li class="lista-items"><a href="../pages/produtos.html">PRODUTOS</a></li>
 
-            <!-- menu hamburguer - mobile & tablet -->
-            <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-            </div>
-
-            <!-- navbar -->
-            <ul class="nav-list">
-                <li><img src="../img/estrela.svg" alt="estrela icon"></li>
-                <li><a href="../pages/calendario.html">CALENDÁRIO</a></li>
-                <li><img src="../img/estrela.svg" alt="estrela icon"></li>
-                <li><a href="../pages/avisos.html">AVISOS</a></li>
-                <li><img src="../img/estrela.svg" alt="estrela icon"></li>
-                <li><a href="../pages/awards.html">AWARDS</a></li>
-                <li><img src="../img/estrela.svg" alt="estrela icon"></li>
-                <li><a href="../pages/produtos.html">PRODUTOS</a></li>
-            </ul
-        </nav>
+                </ul>
+            </nav>
     </header>
 
-    <main class="banner__calendario">
-
-        <div class="banner__calendario-breve">
-            <h1>EM BREVE.....</h1>
-
-            <img src="../img/felix-programador.jpg" alt="felix programador" class="felix__img">
-            <p>felix está trabalhando...</p>
-            <figure>
-                <img src="../img/loading-gif.gif" alt="loading gif" class="gif">
-            </figure>
-        </div>
-
+    <main id="main__pages">
+        <section class="main__pages-section">
+            <div class="section-div">
+                <h1>EM BREVE...</h1>
+                <img src="../img/felix-programador.jpg" alt="felix programador" class="felix-img">
+                <figure><img src="../img/loading-gif.gif" alt="gif loading" class="gif-img"></figure>
+            </div>
+        </section>
     </main>
 
     <!-- movimentação do menu lateral -->

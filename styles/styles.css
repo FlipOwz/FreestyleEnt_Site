@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 @import url("../styles/header.css");
 @import url("../styles/footer.css");
+@import url("../styles/home.css");
+@import url("../styles/scroll.css");
 
 * {
     box-sizing: border-box;
@@ -26,82 +28,35 @@ body {
     height: 100vh;
 }
 
-/* HOME */
-
-.banner {
-    background: url("../img/fundo-banner.png") no-repeat center center;
-    background-size: cover;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 6rem;
+#main__pages {
+    height: 85vh;
+    width: 100vw;
 }
 
-.banner__descricoes {
-    display: flex;
-    column-gap: 10rem;
-}
-
-.banner__descricoes h2 {
-    font-family: var(--fonte-primaria);
-    font-size: 2rem;
-}
-
-@media (max-width: 1180px) {
-    .banner {
-        row-gap: 1rem;
-    }
-
-    .banner__descricoes {
-        flex-direction: column;
-        align-items: center;
-        row-gap: 2rem;
-    }
-}
-
-@media (max-width: 580px) {
-    .banner {
-        row-gap: 3rem;
-    }
-
-    .banner__descricoes h2 {
-        font-size: 1rem;
-    }
-
-    .banner__img {
-        width: 80vw;
-    }
-}
-
-/* CALENDÁRIO */
-
-.banner__calendario {
+.main__pages-section {
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
 }
 
-.banner__calendario-breve {
-    /* background-color: #CF1515; */
+.section-div {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 1.5rem;
 }
 
-.banner__calendario-breve h1 {
-    font-family: var(--fonte-primaria);
+.section-div h1 {
     font-size: 2rem;
+    font-family: var(--fonte-primaria);
 }
 
-.felix__img {
-    width: 250px;
+.felix-img {
+    height: 35vh;
     border-radius: 3rem;
 }
 
-.gif {
-    width: 100px;
+.gif-img {
+    height: 15vh;
 }

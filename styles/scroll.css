@@ -1,0 +1,21 @@
+/* ScrollBar Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--cor-detalhes) var(--cor-fundo-secundario);
+}
+  
+  /* ScrollBar Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: var(--cor-fundo-secundario);
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: var(--cor-detalhes);
+    border-radius: 20px;
+    border: 3px solid var(--cor-fundo-secundario);
+}
+ 
