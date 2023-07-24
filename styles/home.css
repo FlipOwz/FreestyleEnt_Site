@@ -1,0 +1,68 @@
+#main {
+    background-image: url(../img/fundo-banner.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .section {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+    padding: 5rem 5rem;
+}
+
+.section-logo img {
+    height: 40vh;
+}
+
+.section-letras {
+    display: flex;
+    column-gap: 10rem;
+}
+
+.section-letras h2 {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .section-logo img {
+        height: 30vh;
+    }
+
+    .section-letras {
+        column-gap: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #main {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .section-logo img {
+        height: 20vh;
+    }
+
+    .section-letras {
+        text-align: center;
+        flex-direction: column;
+        row-gap: 2.5rem;
+    }
+
+    .section-letras h2 {
+        font-size: 1rem;
+    }
+}
