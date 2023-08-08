@@ -9,4 +9,4 @@ https://freestyle-ent.vercel.app/
 
 CEO & Designer: Felipe Galvão.
 
-Desenvolvedora & Sub-Designer: Isabella Tiemy.
+Desenvolvedora/Sub-Designer/Sócia: Isabella Tiemy.
